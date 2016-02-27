@@ -20,26 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-require 'sinatra'
-require_relative 'helpers/api_keys'
-
-class SpotifyImporter < Sinatra::Base
-
-    get '/' do
-        erb :home
-    end
-
-    get '/callback' do
-        'callbacked!'
-    end
-
-    def login
-        scopes = 'user-read-private user-read-email'
-        redirect to('https://accounts.spotify.com/authorize' +
-            '?response_type=code' +
-            '&client_id=' + CLIENT_ID +
-            '&scope=' + URI.encode(scopes) +
-            '&redirect_uri=http://localhost:8888/callback')
-    end
-
-end
+# TODO: Fill these with your Spotify Client ID & Secret
+CLIENT_ID = ENV['SPOTIFY_ID'] || ""
+CLIENT_SECRET = ENV['SPOTIFY_SECRET'] || ""

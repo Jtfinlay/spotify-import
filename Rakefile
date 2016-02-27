@@ -23,5 +23,5 @@
 task default: :serve
 
 task :serve do
-    %x[rackup -p 8080 -s thin]
+    %x[rackup -p 8888 -s thin]
 end
