@@ -23,5 +23,5 @@
 task default: :serve
 
 task :serve do
-    ruby "app.rb"
+    %x[rackup -p 8080 -s thin]
 end

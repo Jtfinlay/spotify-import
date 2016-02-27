@@ -20,12 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-source 'https://rubygems.org'
+Dir.chdir(File.dirname(File.expand_path(__FILE__)))
+require_relative 'app'
 
-gem 'sinatra'
-gem 'rack'
-
-group :development do
-  gem 'thin'
-  gem 'rerun'
-end
+run SpotifyImporter

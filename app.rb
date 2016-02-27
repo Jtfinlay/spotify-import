@@ -22,6 +22,8 @@
 
 require 'sinatra'
 
-get '/' do
-    'Hello, world!'
+class SpotifyImporter < Sinatra::Base
+    get '/' do
+        'Hello, world!'
+    end
 end
