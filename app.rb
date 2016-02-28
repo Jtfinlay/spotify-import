@@ -22,24 +22,32 @@
 
 require 'sinatra'
 require_relative 'helpers/api_keys'
+require_relative 'helpers/spotify_helper'
 
 class SpotifyImporter < Sinatra::Base
+
+    enable :sessions
 
     get '/' do
         erb :home
     end
 
     get '/callback' do
-        'callbacked!'
+        
+        res = SpotifyHelper.HandleTokenAuthorization(request)
+        
+        session['access_token'] = res["access_token"]
+        session['refresh_token'] = res["refresh_token"]
+
+        return 'Callback successful :)'
+    end
+
+    get '/authenticate' do
+        login
     end
 
     def login
-        scopes = 'user-read-private user-read-email'
-        redirect to('https://accounts.spotify.com/authorize' +
-            '?response_type=code' +
-            '&client_id=' + CLIENT_ID +
-            '&scope=' + URI.encode(scopes) +
-            '&redirect_uri=http://localhost:8888/callback')
+        redirect to(SpotifyHelper.SpotifyOAuthUrl)
     end
 
 end
