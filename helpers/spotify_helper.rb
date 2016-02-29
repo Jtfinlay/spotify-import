@@ -147,7 +147,7 @@ class SpotifyHelper
     #
     def self.SearchTrack(track_name, artist, album)
         url = API_URL + 
-            "search?type=track&q=" +
+            "search?type=track&market=US&q=" +
             "track:#{track_name}" +
             " artist:#{artist}" +
             " album:#{album}"

@@ -26,8 +26,6 @@ function Track(data) {
       var self = this;
       data = data || {};
 
-      self.dummy = ko.observable();
-
       self.title = data.title;
       self.artist = data.artist;
       self.album = data.album;
@@ -96,6 +94,7 @@ function TracksViewModel() {
 
       self.transferTracks = function() {
         self.transferDisabled(true);
+        self.trackIndex(0);
         vm.transferTrack(0);
       }
 
@@ -113,6 +112,7 @@ function TracksViewModel() {
             {
                 self.tracks()[index].transferred(true);
             }
+            self.trackIndex(index+1);
             vm.transferTrack(index+1);
         });
       }
