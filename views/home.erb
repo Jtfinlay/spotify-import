@@ -26,17 +26,18 @@
 
         <hr />
 
-        <table>
+        <table class='table'>
             <thead><tr>
-                <th>TrackName</th><th>Artist</th><th>Album</th><th>SpotifyId</th>
+                <th>TrackName</th><th>Artist</th><th>Album</th><th>Results Found</th><th>SpotifyId</th>
             </tr></thead>
             <tbody>
                 <% importTracks.each do |track| %>
                 <tr>
-                    <td><%= track['name'] %></td>
-                    <td><%= track['name'] %></td>
-                    <td><%= track['name'] %></td>
-                    <td><%= track['name'] %></td>
+                    <td><%= track['title'] %></td>
+                    <td><%= track['artist'] %></td>
+                    <td><%= track['album'] %></td>
+                    <td><%= track['resultCount'] %></td>
+                    <td><%= track['id'] %></td>
                 </tr>
                 <% end %>
             </tbody>

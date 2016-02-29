@@ -22,6 +22,7 @@
 
 require 'sinatra'
 require_relative 'helpers/api_keys'
+require_relative 'helpers/fileimport_helper'
 require_relative 'helpers/spotify_helper'
 
 class SpotifyImporter < Sinatra::Base
@@ -43,7 +44,16 @@ class SpotifyImporter < Sinatra::Base
         end
 
         def importTracks
-            return [{ "name" => "w/e"}]
+            # result = FileImportHelper.ParseFile.map! {|item|
+            #     spotifyItem = SpotifyHelper.SearchTrack(item['title'], item['artist'], item['album'])
+            #     total = spotifyItem['tracks']['total'].to_i
+            #     item['resultCount'] = total
+
+            #     item['id'] = spotifyItem['tracks']['items'][0]['id'] if total > 0
+            #     item
+            # }
+            # puts result
+            return FileImportHelper.ParseFile
         end
     end
 
