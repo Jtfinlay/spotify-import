@@ -20,6 +20,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+require 'csv'
+
 class FileImportHelper
 
     #
@@ -30,6 +32,14 @@ class FileImportHelper
     def self.ParseFile
         
         return JSON.parse(File.read("data/google_music.txt"))
+    end
+
+    def self.ParseCSVFile
+        res = []
+        CSV.foreach("data/google_music2.csv") do |track|
+            res.push({"artist" => track[0], "album" => track[1], "title" => track[2]})
+        end
+        return res
     end
 
 

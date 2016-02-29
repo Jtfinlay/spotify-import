@@ -46,7 +46,7 @@ class SpotifyImporter < Sinatra::Base
         end
 
         def importTracks
-            return FileImportHelper.ParseFile
+            return FileImportHelper.ParseCSVFile
         end
     end
 
@@ -68,6 +68,10 @@ class SpotifyImporter < Sinatra::Base
         rescue Exception => detail
             return "Error: #{detail}"
         end
+    end
+
+    get '/csv' do
+        return importTracks.to_json
     end
 
     get '/authenticate' do
