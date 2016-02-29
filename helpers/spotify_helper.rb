@@ -22,10 +22,11 @@
 
 require 'net/http'
 require 'json'
+require_relative 'custom_exceptions'
 
 class SpotifyHelper
 
-    # API_URL = "https://api.spotify.com/v1/"
+    API_URL = "https://api.spotify.com/v1/"
 
     REDIRECT_URL = 'http://localhost:8888/callback'
 
@@ -46,6 +47,11 @@ class SpotifyHelper
                 '&redirect_uri=' + REDIRECT_URL
     end
 
+    #
+    # From the Spotify Authentication response, perform the token authorization process
+    #
+    # request: Spotify Authentication response containing an authorization code or error
+    #
     def self.HandleTokenAuthorization(request)
         if not request['error'].nil?
             raise AuthenticationException, request['error']
@@ -61,6 +67,20 @@ class SpotifyHelper
 
         if not res.code.to_i == 200
             raise TokenAuthorizationException, res.message
+        end
+
+        return JSON.parse(res.body)
+    end
+
+    def self.GetProfileData(access_token)
+        uri = URI(API_URL + 'me')
+
+        req = Net::HTTP::Get.new(uri)
+        req['Authorization'] = "Bearer #{access_token}"
+
+        res = Net::HTTP.start(uri.hostname, uri.port,
+            :use_ssl => uri.scheme == 'https') do |http|
+            http.request(req)
         end
 
         return JSON.parse(res.body)

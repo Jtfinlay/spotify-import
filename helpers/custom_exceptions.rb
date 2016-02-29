@@ -20,48 +20,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-require 'sinatra'
-require_relative 'helpers/api_keys'
-require_relative 'helpers/spotify_helper'
+class AuthenticationException < Exception
 
-class SpotifyImporter < Sinatra::Base
+end
 
-    enable :sessions
-
-    helpers do
-        def authenticated?
-            not session['access_token'].nil?
-        end
-
-    end
-
-    get '/' do
-        erb :home
-    end
-
-    get '/callback' do
-        begin
-            res = SpotifyHelper.HandleTokenAuthorization(request)
-            
-            session['access_token'] = res["access_token"]
-            session['refresh_token'] = res["refresh_token"]
-
-            user_data = SpotifyHelper.GetProfileData(session[:access_token])
-            user_name = user_data["id"]
-
-            return "Welcome, #{user_name}!"
-
-        rescue Exception => detail
-            return "Error: #{detail}"
-        end
-    end
-
-    get '/authenticate' do
-        login
-    end
-
-    def login
-        redirect to(SpotifyHelper.SpotifyOAuthUrl)
-    end
+class TokenAuthorizationException < Exception
 
 end
