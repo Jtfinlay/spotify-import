@@ -46,24 +46,13 @@ class SpotifyImporter < Sinatra::Base
         end
 
         def importTracks
-            # result = FileImportHelper.ParseFile.map! {|item|
-            #     spotifyItem = SpotifyHelper.SearchTrack(item['title'], item['artist'], item['album'])
-            #     total = spotifyItem['tracks']['total'].to_i
-            #     item['resultCount'] = total
-
-            #     item['id'] = spotifyItem['tracks']['items'][0]['id'] if total > 0
-            #     item
-            # }
-            # puts result
             return FileImportHelper.ParseFile
         end
     end
 
     get '/' do
+        js :knockout
         erb :home
-        if authenticated?
-            # Thread.new {  }
-        end
     end
 
     get '/callback' do
@@ -85,6 +74,13 @@ class SpotifyImporter < Sinatra::Base
         redirect to(SpotifyHelper.SpotifyOAuthUrl)
     end
 
+    get '/importTracks' do
+        return nil if not authenticated?
+        return importTracks.to_json
+    end
 
+    get '/spotifyData' do
+
+    end
 
 end

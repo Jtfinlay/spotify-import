@@ -22,7 +22,7 @@
     <% if authenticated? %>
 
         <p>Welcome, <%= session[:user_name] %>!</p>
-        <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have x item(s) to import.</p>
+        <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have <span data-bind='text: trackCount'></span> item(s) to import.</p>
 
         <hr />
 
@@ -30,16 +30,14 @@
             <thead><tr>
                 <th>TrackName</th><th>Artist</th><th>Album</th><th>Results Found</th><th>SpotifyId</th>
             </tr></thead>
-            <tbody>
-                <% importTracks.each do |track| %>
+            <tbody data-bind="foreach: tracks">
                 <tr>
-                    <td><%= track['title'] %></td>
-                    <td><%= track['artist'] %></td>
-                    <td><%= track['album'] %></td>
-                    <td><%= track['resultCount'] %></td>
-                    <td><%= track['id'] %></td>
+                    <td data-bind="text: title"></td>
+                    <td data-bind="text: artist"></td>
+                    <td data-bind="text: album"></td>
+                    <td data-bind="text: results"></td>
+                    <td data-bind="text: spotify_id"></td>
                 </tr>
-                <% end %>
             </tbody>
         </table>
 
