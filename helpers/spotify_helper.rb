@@ -130,20 +130,15 @@ class SpotifyHelper
     # artist: Name of artist
     # album: Name of album containing track
     #
-    # def self.SearchTrack(track_name, artist, album)
-        
-    #     url = "#{SPOTIFY_URL}search?q="
+    def self.SearchTrack(track_name, artist, album)
+        url = API_URL + 
+            "search?type=track&q=" +
+            "track:#{track_name}" +
+            " artist:#{artist}" +
+            " album:#{album}"
 
-    #     url += "track:#{track_name}"
-    #     url += " artist:#{artist}" if not artist.to_s.empty?
-    #     url += " album:#{album}" if not album.to_s.empty?
-
-    #     url += "&type=track"
-
-    #     content = Net::HTTP.get(URI(URI.encode(url)))
-    #     response = JSON.parse(content)
-
-    #     return response
-    # end
+        content = Net::HTTP.get(URI(URI.encode(url)))
+        return JSON.parse(content)
+    end
 
 end
