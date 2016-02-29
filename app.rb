@@ -63,12 +63,10 @@ class SpotifyImporter < Sinatra::Base
 
     get '/callback' do
         begin
-            res = SpotifyHelper.HandleTokenAuthorization(request)
-            
-            session['access_token'] = res["access_token"]
-            session['refresh_token'] = res["refresh_token"]
+            helper = SpotifyHelper.new
+            helper.HandleTokenAuthorization(request)
 
-            user_data = SpotifyHelper.GetProfileData(session[:access_token])
+            user_data = helper.GetProfileData
             session['user_name'] = user_data["id"]
 
             redirect to('/')
