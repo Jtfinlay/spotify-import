@@ -32,7 +32,7 @@
   {
     "dataid": "Tasikdr467qjhhb6i7x4i4377qe",
     "index": "4",
-    "title": "E3005",
+    "title": "3005",
     "duration": "3:54",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -42,7 +42,7 @@
   {
     "dataid": "Tyof5qi3r2cqhf4ebh33g5yshze",
     "index": "5",
-    "title": "E39 (Explicit Version)",
+    "title": "39 (Explicit Version)",
     "duration": "5:16",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -112,7 +112,7 @@
   {
     "dataid": "Tsu5noulow3zv3mop4yhrud6ana",
     "index": "12",
-    "title": "EAfterlife",
+    "title": "Afterlife",
     "duration": "3:28",
     "artist": "XYLØ",
     "album": "Afterlife",
@@ -182,7 +182,7 @@
   {
     "dataid": "Tcjzqwswz3wlbvmyvkzba5bt3li",
     "index": "19",
-    "title": "EAll The Shine",
+    "title": "All The Shine",
     "duration": "5:46",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -292,7 +292,7 @@
   {
     "dataid": "Tcjzqwswz3wlbvmyvkzba5bt3li",
     "index": "19",
-    "title": "EAll The Shine",
+    "title": "All The Shine",
     "duration": "5:46",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -502,7 +502,7 @@
   {
     "dataid": "Tnuofcfaj4muz3i57r6k55f3q6q",
     "index": "40",
-    "title": "EBackpackers",
+    "title": "Backpackers",
     "duration": "3:15",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -562,7 +562,7 @@
   {
     "dataid": "Trsz26abvohpeet4xsci5s6vklu",
     "index": "46",
-    "title": "EThe Ballad Of Hollywood Jack And The Rage Kage (Explicit Version)",
+    "title": "The Ballad Of Hollywood Jack And The Rage Kage (Explicit Version)",
     "duration": "5:05",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -642,7 +642,7 @@
   {
     "dataid": "Trzggjch5tay345hahl4fcqwy6q",
     "index": "54",
-    "title": "EBeelzeboss (The Final Showdown)",
+    "title": "Beelzeboss (The Final Showdown)",
     "duration": "5:35",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -672,7 +672,7 @@
   {
     "dataid": "Tu6civg7n7263iqkj6d34iovcre",
     "index": "57",
-    "title": "EThe Best Day",
+    "title": "The Best Day",
     "duration": "3:36",
     "artist": "Atmosphere",
     "album": "To All My Friends, Blood Makes The Blade Holy: the Atmosphere ep's",
@@ -752,7 +752,7 @@
   {
     "dataid": "Trzggjch5tay345hahl4fcqwy6q",
     "index": "54",
-    "title": "EBeelzeboss (The Final Showdown)",
+    "title": "Beelzeboss (The Final Showdown)",
     "duration": "5:35",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -782,7 +782,7 @@
   {
     "dataid": "Tu6civg7n7263iqkj6d34iovcre",
     "index": "57",
-    "title": "EThe Best Day",
+    "title": "The Best Day",
     "duration": "3:36",
     "artist": "Atmosphere",
     "album": "To All My Friends, Blood Makes The Blade Holy: the Atmosphere ep's",
@@ -862,7 +862,7 @@
   {
     "dataid": "Txbufduz6c5up6qq5irfvknzura",
     "index": "65",
-    "title": "EBitch Better Have My Money",
+    "title": "Bitch Better Have My Money",
     "duration": "3:39",
     "artist": "Rihanna",
     "album": "Bitch Better Have My Money",
@@ -882,7 +882,7 @@
   {
     "dataid": "Tayypqax7gucxekn63eecfvomse",
     "index": "67",
-    "title": "EBlow Me (One Last Kiss)",
+    "title": "Blow Me (One Last Kiss)",
     "duration": "4:15",
     "artist": "P!nk",
     "album": "The Truth About Love",
@@ -922,7 +922,7 @@
   {
     "dataid": "Tpjihweh6f2yfxvht3vr76fwkdm",
     "index": "71",
-    "title": "EBonfire",
+    "title": "Bonfire",
     "duration": "3:12",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -982,7 +982,7 @@
   {
     "dataid": "T6gn7ouofgiwjrhcy5gp4aqdmoy",
     "index": "77",
-    "title": "EBreak In-City (Storm the Gate!)",
+    "title": "Break In-City (Storm the Gate!)",
     "duration": "1:22",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -1092,7 +1092,7 @@
   {
     "dataid": "T6gn7ouofgiwjrhcy5gp4aqdmoy",
     "index": "77",
-    "title": "EBreak In-City (Storm the Gate!)",
+    "title": "Break In-City (Storm the Gate!)",
     "duration": "1:22",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -1262,7 +1262,7 @@
   {
     "dataid": "Tguijgsfjirn6bh4ijfck7dhzmu",
     "index": "94",
-    "title": "ECar Chase City",
+    "title": "Car Chase City",
     "duration": "2:42",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -1372,7 +1372,7 @@
   {
     "dataid": "Tvgzc5og3ngzioeo2yaav2tbgry",
     "index": "105",
-    "title": "EClassic Man (feat. Roman GianArthur)",
+    "title": "Classic Man (feat. Roman GianArthur)",
     "duration": "3:46",
     "artist": "Jidenna feat. Roman GianArthur",
     "album": "Classic Man",
@@ -1382,7 +1382,7 @@
   {
     "dataid": "Tss7tahlhpy4kjhvuulnfzz3b44",
     "index": "106",
-    "title": "EClassic Man (Remix) (feat. Kendrick Lamar)",
+    "title": "Classic Man (Remix) (feat. Kendrick Lamar)",
     "duration": "3:55",
     "artist": "Jidenna",
     "album": "Wondaland Presents: The Eephus",
@@ -1392,7 +1392,7 @@
   {
     "dataid": "Tkecrv7hb5qjdcnb6efzvbzuyd4",
     "index": "107",
-    "title": "EClassical Teacher (Explicit Version)",
+    "title": "Classical Teacher (Explicit Version)",
     "duration": "3:23",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -1402,7 +1402,7 @@
   {
     "dataid": "Txq2qtam5ilhp4ywwyfwrjvx72i",
     "index": "108",
-    "title": "EClassico",
+    "title": "Classico",
     "duration": "0:58",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -1482,7 +1482,7 @@
   {
     "dataid": "Tvgzc5og3ngzioeo2yaav2tbgry",
     "index": "105",
-    "title": "EClassic Man (feat. Roman GianArthur)",
+    "title": "Classic Man (feat. Roman GianArthur)",
     "duration": "3:46",
     "artist": "Jidenna feat. Roman GianArthur",
     "album": "Classic Man",
@@ -1492,7 +1492,7 @@
   {
     "dataid": "Tss7tahlhpy4kjhvuulnfzz3b44",
     "index": "106",
-    "title": "EClassic Man (Remix) (feat. Kendrick Lamar)",
+    "title": "Classic Man (Remix) (feat. Kendrick Lamar)",
     "duration": "3:55",
     "artist": "Jidenna",
     "album": "Wondaland Presents: The Eephus",
@@ -1502,7 +1502,7 @@
   {
     "dataid": "Tkecrv7hb5qjdcnb6efzvbzuyd4",
     "index": "107",
-    "title": "EClassical Teacher (Explicit Version)",
+    "title": "Classical Teacher (Explicit Version)",
     "duration": "3:23",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -1512,7 +1512,7 @@
   {
     "dataid": "Txq2qtam5ilhp4ywwyfwrjvx72i",
     "index": "108",
-    "title": "EClassico",
+    "title": "Classico",
     "duration": "0:58",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -1602,7 +1602,7 @@
   {
     "dataid": "Tvlgskavgk32exceq4ikcmilqnq",
     "index": "117",
-    "title": "ECommunity Property",
+    "title": "Community Property",
     "duration": "3:38",
     "artist": "Steel Panther",
     "album": "Feel The Steel (Explicit Version)",
@@ -1652,7 +1652,7 @@
   {
     "dataid": "T7kp33bb7musz6ywdzetexhsfie",
     "index": "122",
-    "title": "ECrazy Kids",
+    "title": "Crazy Kids",
     "duration": "3:50",
     "artist": "Ke$ha",
     "album": "Warrior (Deluxe Version)",
@@ -1812,7 +1812,7 @@
   {
     "dataid": "Tyn5epllqajgl4w4oox3ph3nilq",
     "index": "138",
-    "title": "EDeath By Numbers",
+    "title": "Death By Numbers",
     "duration": "0:43",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -1922,7 +1922,7 @@
   {
     "dataid": "Tyn5epllqajgl4w4oox3ph3nilq",
     "index": "138",
-    "title": "EDeath By Numbers",
+    "title": "Death By Numbers",
     "duration": "0:43",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -1962,7 +1962,7 @@
   {
     "dataid": "Tcd2mfqybra6s5m6cavpa7w6pki",
     "index": "142",
-    "title": "EDeth Starr (Explicit Version)",
+    "title": "Deth Starr (Explicit Version)",
     "duration": "4:44",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -1972,7 +1972,7 @@
   {
     "dataid": "Tyoujgkxfhoiipizm3dcrfbqimi",
     "index": "143",
-    "title": "EDial up",
+    "title": "Dial up",
     "duration": "0:44",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -2152,7 +2152,7 @@
   {
     "dataid": "Tguuy3earhm47kmazf2rj7hsxmq",
     "index": "161",
-    "title": "EDowntown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
+    "title": "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
     "duration": "4:52",
     "artist": "Macklemore & Ryan Lewis",
     "album": "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
@@ -2172,7 +2172,7 @@
   {
     "dataid": "Thkkduy3o6fsydbvcabsqm2omxi",
     "index": "163",
-    "title": "EDrunk in Love (feat. Jay-Z)",
+    "title": "Drunk in Love (feat. Jay-Z)",
     "duration": "5:23",
     "artist": "Beyoncé",
     "album": "BEYONCÉ [Platinum Edition]",
@@ -2182,7 +2182,7 @@
   {
     "dataid": "Tlbcfgvp5k632zrboovwhhdydai",
     "index": "164",
-    "title": "EDude (I Totally Miss You)",
+    "title": "Dude (I Totally Miss You)",
     "duration": "2:53",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -2212,7 +2212,7 @@
   {
     "dataid": "T2qyi7uno7gnqrve6rxrbggxbrq",
     "index": "167",
-    "title": "EEmergency",
+    "title": "Emergency",
     "duration": "2:49",
     "artist": "Icona Pop",
     "album": "Emergency",
@@ -2262,7 +2262,7 @@
   {
     "dataid": "Tguuy3earhm47kmazf2rj7hsxmq",
     "index": "161",
-    "title": "EDowntown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
+    "title": "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
     "duration": "4:52",
     "artist": "Macklemore & Ryan Lewis",
     "album": "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
@@ -2282,7 +2282,7 @@
   {
     "dataid": "Thkkduy3o6fsydbvcabsqm2omxi",
     "index": "163",
-    "title": "EDrunk in Love (feat. Jay-Z)",
+    "title": "Drunk in Love (feat. Jay-Z)",
     "duration": "5:23",
     "artist": "Beyoncé",
     "album": "BEYONCÉ [Platinum Edition]",
@@ -2292,7 +2292,7 @@
   {
     "dataid": "Tlbcfgvp5k632zrboovwhhdydai",
     "index": "164",
-    "title": "EDude (I Totally Miss You)",
+    "title": "Dude (I Totally Miss You)",
     "duration": "2:53",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -2322,7 +2322,7 @@
   {
     "dataid": "T2qyi7uno7gnqrve6rxrbggxbrq",
     "index": "167",
-    "title": "EEmergency",
+    "title": "Emergency",
     "duration": "2:49",
     "artist": "Icona Pop",
     "album": "Emergency",
@@ -2422,7 +2422,7 @@
   {
     "dataid": "Tt3ma4pzktqoutmjrvlgo7e2fx4",
     "index": "177",
-    "title": "EFancy (feat. Charli XCX)",
+    "title": "Fancy (feat. Charli XCX)",
     "duration": "3:19",
     "artist": "Iggy Azalea",
     "album": "Fancy",
@@ -2512,7 +2512,7 @@
   {
     "dataid": "Tx64qbsw2ixasxeymr7z6hvafeu",
     "index": "186",
-    "title": "EFire Fly",
+    "title": "Fire Fly",
     "duration": "3:23",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -2532,7 +2532,7 @@
   {
     "dataid": "Tx4ckmqnonvk75seqgtwgrxvyry",
     "index": "188",
-    "title": "EF**kin' Perfect",
+    "title": "F**kin' Perfect",
     "duration": "3:33",
     "artist": "P!nk",
     "album": "Greatest Hits...So Far!!!",
@@ -2552,7 +2552,7 @@
   {
     "dataid": "Tuklhrklqs4rjn5vakh5pbgagle",
     "index": "190",
-    "title": "EFlutes & Trombones (Explicit Version)",
+    "title": "Flutes & Trombones (Explicit Version)",
     "duration": "1:28",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -2582,7 +2582,7 @@
   {
     "dataid": "Taoju7p6usg7txkbutuqhpuobem",
     "index": "193",
-    "title": "EForgot About Dre (feat. Eminem)",
+    "title": "Forgot About Dre (feat. Eminem)",
     "duration": "3:42",
     "artist": "Dr. Dre",
     "album": "2001",
@@ -2642,7 +2642,7 @@
   {
     "dataid": "Tx4ckmqnonvk75seqgtwgrxvyry",
     "index": "188",
-    "title": "EF**kin' Perfect",
+    "title": "F**kin' Perfect",
     "duration": "3:33",
     "artist": "P!nk",
     "album": "Greatest Hits...So Far!!!",
@@ -2662,7 +2662,7 @@
   {
     "dataid": "Tuklhrklqs4rjn5vakh5pbgagle",
     "index": "190",
-    "title": "EFlutes & Trombones (Explicit Version)",
+    "title": "Flutes & Trombones (Explicit Version)",
     "duration": "1:28",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -2692,7 +2692,7 @@
   {
     "dataid": "Taoju7p6usg7txkbutuqhpuobem",
     "index": "193",
-    "title": "EForgot About Dre (feat. Eminem)",
+    "title": "Forgot About Dre (feat. Eminem)",
     "duration": "3:42",
     "artist": "Dr. Dre",
     "album": "2001",
@@ -2742,7 +2742,7 @@
   {
     "dataid": "Tzotgevq6rzdht5xgftwvchrmca",
     "index": "198",
-    "title": "EFuck You",
+    "title": "Fuck You",
     "duration": "3:39",
     "artist": "Lily Allen",
     "album": "It's Not Me, It's You",
@@ -2902,7 +2902,7 @@
   {
     "dataid": "T4pa4fzfwyhwyauvaa6fp4h5xhu",
     "index": "214",
-    "title": "EGive It Away",
+    "title": "Give It Away",
     "duration": "4:44",
     "artist": "Red Hot Chili Peppers",
     "album": "Blood Sugar Sex Magik",
@@ -2932,7 +2932,7 @@
   {
     "dataid": "Tl6dyvhp43otpxffi4bx7zsbkie",
     "index": "217",
-    "title": "EGlobal Concepts",
+    "title": "Global Concepts",
     "duration": "4:38",
     "artist": "Robert DeLong",
     "album": "Just Movement",
@@ -3012,7 +3012,7 @@
   {
     "dataid": "Ttirkrbfqjlqsndnenvyfvvcdty",
     "index": "225",
-    "title": "EThe Government Totally Sucks",
+    "title": "The Government Totally Sucks",
     "duration": "1:34",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -3042,7 +3042,7 @@
   {
     "dataid": "Tl6dyvhp43otpxffi4bx7zsbkie",
     "index": "217",
-    "title": "EGlobal Concepts",
+    "title": "Global Concepts",
     "duration": "4:38",
     "artist": "Robert DeLong",
     "album": "Just Movement",
@@ -3122,7 +3122,7 @@
   {
     "dataid": "Ttirkrbfqjlqsndnenvyfvvcdty",
     "index": "225",
-    "title": "EThe Government Totally Sucks",
+    "title": "The Government Totally Sucks",
     "duration": "1:34",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -3172,7 +3172,7 @@
   {
     "dataid": "Tumspjhbra2mray6acvbvfxnrji",
     "index": "230",
-    "title": "EHandlebars",
+    "title": "Handlebars",
     "duration": "3:26",
     "artist": "Flobots",
     "album": "Fight With Tools (Explicit Version)",
@@ -3252,7 +3252,7 @@
   {
     "dataid": "T35tljibyxgfjkk745skm7v2vly",
     "index": "238",
-    "title": "EHeartbeat",
+    "title": "Heartbeat",
     "duration": "4:29",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -3352,7 +3352,7 @@
   {
     "dataid": "Tcwlr4wsgkrwjdilvcx772ybtoe",
     "index": "248",
-    "title": "EHigh By The Beach",
+    "title": "High By The Beach",
     "duration": "4:17",
     "artist": "Lana Del Rey",
     "album": "Honeymoon",
@@ -3382,7 +3382,7 @@
   {
     "dataid": "Twdlno2cnj4godozhghwlrudioi",
     "index": "251",
-    "title": "EHistory",
+    "title": "History",
     "duration": "1:42",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -3402,7 +3402,7 @@
   {
     "dataid": "Tpvf6hpf6o2pmoxnjdfktuackeu",
     "index": "253",
-    "title": "EHold You Down",
+    "title": "Hold You Down",
     "duration": "4:52",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -3462,7 +3462,7 @@
   {
     "dataid": "Tcwlr4wsgkrwjdilvcx772ybtoe",
     "index": "248",
-    "title": "EHigh By The Beach",
+    "title": "High By The Beach",
     "duration": "4:17",
     "artist": "Lana Del Rey",
     "album": "Honeymoon",
@@ -3492,7 +3492,7 @@
   {
     "dataid": "Twdlno2cnj4godozhghwlrudioi",
     "index": "251",
-    "title": "EHistory",
+    "title": "History",
     "duration": "1:42",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -3512,7 +3512,7 @@
   {
     "dataid": "Tpvf6hpf6o2pmoxnjdfktuackeu",
     "index": "253",
-    "title": "EHold You Down",
+    "title": "Hold You Down",
     "duration": "4:52",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -3542,7 +3542,7 @@
   {
     "dataid": "T2wsyktsyngfqwrvnfyhnakxs3u",
     "index": "256",
-    "title": "EHoodie Ninja",
+    "title": "Hoodie Ninja",
     "duration": "2:59",
     "artist": "mc chris",
     "album": "MC Chris Is Dead",
@@ -3572,7 +3572,7 @@
   {
     "dataid": "Tzscploglpqiewc5u7bzxeflera",
     "index": "259",
-    "title": "EHouse Of The Rising Sun",
+    "title": "House Of The Rising Sun",
     "duration": "4:07",
     "artist": "Five Finger Death Punch",
     "album": "The Wrong Side Of Heaven And The Righteous Side Of Hell (Volume 2)",
@@ -3602,7 +3602,7 @@
   {
     "dataid": "Tjv2lm4giarpq22un6hpxuzcvlq",
     "index": "262",
-    "title": "EHypnotize (2014 Remastered Version)",
+    "title": "Hypnotize (2014 Remastered Version)",
     "duration": "3:49",
     "artist": "The Notorious B.I.G.",
     "album": "Life After Death (Remastered Edition)",
@@ -3642,7 +3642,7 @@
   {
     "dataid": "Tmxa7ulney4ciujgrjpsuq6sn3e",
     "index": "266",
-    "title": "EI. Flight Of The Navigator",
+    "title": "I. Flight Of The Navigator",
     "duration": "5:44",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3682,7 +3682,7 @@
   {
     "dataid": "Tcen6rkiy7ocabctqv5okhhlv2y",
     "index": "270",
-    "title": "EI Love It (feat. Charli XCX)",
+    "title": "I Love It (feat. Charli XCX)",
     "duration": "2:35",
     "artist": "Icona Pop",
     "album": "I Love It",
@@ -3702,7 +3702,7 @@
   {
     "dataid": "Tupwlqc7j4jevzit3dw3n7gpmmi",
     "index": "272",
-    "title": "EI. Pink Toes (feat. Jhene Aiko)",
+    "title": "I. Pink Toes (feat. Jhene Aiko)",
     "duration": "3:27",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3712,7 +3712,7 @@
   {
     "dataid": "Tyx6abrbi4bljlndup3bqmj7cc4",
     "index": "273",
-    "title": "EI. The Party",
+    "title": "I. The Party",
     "duration": "1:31",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3722,7 +3722,7 @@
   {
     "dataid": "Tnhzmrtn6h2x4bwxyjhoxogdjue",
     "index": "274",
-    "title": "EI. The Worst Guys (feat. Chance The Rapper)",
+    "title": "I. The Worst Guys (feat. Chance The Rapper)",
     "duration": "3:39",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3792,7 +3792,7 @@
   {
     "dataid": "Tcndsm55y7j5i3ionzusjrbxszq",
     "index": "281",
-    "title": "EI.Crawl",
+    "title": "I.Crawl",
     "duration": "3:29",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3812,7 +3812,7 @@
   {
     "dataid": "Tupwlqc7j4jevzit3dw3n7gpmmi",
     "index": "272",
-    "title": "EI. Pink Toes (feat. Jhene Aiko)",
+    "title": "I. Pink Toes (feat. Jhene Aiko)",
     "duration": "3:27",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3822,7 +3822,7 @@
   {
     "dataid": "Tyx6abrbi4bljlndup3bqmj7cc4",
     "index": "273",
-    "title": "EI. The Party",
+    "title": "I. The Party",
     "duration": "1:31",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3832,7 +3832,7 @@
   {
     "dataid": "Tnhzmrtn6h2x4bwxyjhoxogdjue",
     "index": "274",
-    "title": "EI. The Worst Guys (feat. Chance The Rapper)",
+    "title": "I. The Worst Guys (feat. Chance The Rapper)",
     "duration": "3:39",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3902,7 +3902,7 @@
   {
     "dataid": "Tcndsm55y7j5i3ionzusjrbxszq",
     "index": "281",
-    "title": "EI.Crawl",
+    "title": "I.Crawl",
     "duration": "3:29",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3922,7 +3922,7 @@
   {
     "dataid": "Tjf6kav52zhpjmb7fymkxs5l3ky",
     "index": "283",
-    "title": "EII. Earth: The Oldest Computer (The Last Night) (feat. Azealia Banks)",
+    "title": "II. Earth: The Oldest Computer (The Last Night) (feat. Azealia Banks)",
     "duration": "4:42",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3932,7 +3932,7 @@
   {
     "dataid": "T6adebicqjflfeoyojwbidkbe4i",
     "index": "284",
-    "title": "EII. No Exit",
+    "title": "II. No Exit",
     "duration": "2:51",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3942,7 +3942,7 @@
   {
     "dataid": "T7xfkwbechq4o3cerxuh2x4ffwy",
     "index": "285",
-    "title": "EII. Shadows",
+    "title": "II. Shadows",
     "duration": "3:51",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3952,7 +3952,7 @@
   {
     "dataid": "Tgwbyn2buqrzwp6mdsg4uvde7di",
     "index": "286",
-    "title": "EII. Worldstar",
+    "title": "II. Worldstar",
     "duration": "4:04",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3962,7 +3962,7 @@
   {
     "dataid": "Tettngkg6bn6lmvlhvuiwvn4tsm",
     "index": "287",
-    "title": "EII. Zealots Of Stockholm [Free Information]",
+    "title": "II. Zealots Of Stockholm [Free Information]",
     "duration": "4:50",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3972,7 +3972,7 @@
   {
     "dataid": "Tca7eog252yftfrel4dmtwx6raq",
     "index": "288",
-    "title": "EIII. Life: The Biggest Troll [Andrew Auernheimer]",
+    "title": "III. Life: The Biggest Troll [Andrew Auernheimer]",
     "duration": "5:42",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3982,7 +3982,7 @@
   {
     "dataid": "Tnx6r3sobaedppgnxhakxfkatzm",
     "index": "289",
-    "title": "EIII. Telegraph Ave. (\"Oakland\" by Lloyd)",
+    "title": "III. Telegraph Ave. (\"Oakland\" by Lloyd)",
     "duration": "3:30",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -3992,7 +3992,7 @@
   {
     "dataid": "Tmlr23hy3fthkrr4chbvf6ziinq",
     "index": "290",
-    "title": "EIII. Urn",
+    "title": "III. Urn",
     "duration": "1:13",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -4002,7 +4002,7 @@
   {
     "dataid": "Tw6yvyo3t5xd7sgrjo7zd4zgh7m",
     "index": "291",
-    "title": "EI'm an Albatraoz",
+    "title": "I'm an Albatraoz",
     "duration": "2:46",
     "artist": "AronChupa",
     "album": "I'm an Albatraoz",
@@ -4012,7 +4012,7 @@
   {
     "dataid": "Tnzmahguxrndukqwu3dutnbx7ke",
     "index": "292",
-    "title": "EI'm Awesome",
+    "title": "I'm Awesome",
     "duration": "4:09",
     "artist": "Spose",
     "album": "I'm Awesome (Explicit Version)",
@@ -4032,7 +4032,7 @@
   {
     "dataid": "Tcoqp37spxpki4injfjwes3gjri",
     "index": "294",
-    "title": "EI'm Only Joking",
+    "title": "I'm Only Joking",
     "duration": "3:44",
     "artist": "Kongos",
     "album": "Lunatic",
@@ -4102,7 +4102,7 @@
   {
     "dataid": "Takwvz2jyohmgzudd7zy7nkqpsa",
     "index": "301",
-    "title": "EIrish Celebration",
+    "title": "Irish Celebration",
     "duration": "4:42",
     "artist": "Macklemore & Ryan Lewis",
     "album": "Irish Celebration",
@@ -4132,7 +4132,7 @@
   {
     "dataid": "T3ygcljyzhpefrqfsh5zywr55iu",
     "index": "304",
-    "title": "EIt's a Good Life",
+    "title": "It's a Good Life",
     "duration": "3:59",
     "artist": "Kongos",
     "album": "Lunatic",
@@ -4172,7 +4172,7 @@
   {
     "dataid": "Tkm74fsvrtk7xo6n2qnkcbt5ymm",
     "index": "308",
-    "title": "EJump Around",
+    "title": "Jump Around",
     "duration": "3:34",
     "artist": "House Of Pain",
     "album": "House Of Pain",
@@ -4212,7 +4212,7 @@
   {
     "dataid": "Takwvz2jyohmgzudd7zy7nkqpsa",
     "index": "301",
-    "title": "EIrish Celebration",
+    "title": "Irish Celebration",
     "duration": "4:42",
     "artist": "Macklemore & Ryan Lewis",
     "album": "Irish Celebration",
@@ -4242,7 +4242,7 @@
   {
     "dataid": "T3ygcljyzhpefrqfsh5zywr55iu",
     "index": "304",
-    "title": "EIt's a Good Life",
+    "title": "It's a Good Life",
     "duration": "3:59",
     "artist": "Kongos",
     "album": "Lunatic",
@@ -4282,7 +4282,7 @@
   {
     "dataid": "Tkm74fsvrtk7xo6n2qnkcbt5ymm",
     "index": "308",
-    "title": "EJump Around",
+    "title": "Jump Around",
     "duration": "3:34",
     "artist": "House Of Pain",
     "album": "House Of Pain",
@@ -4322,7 +4322,7 @@
   {
     "dataid": "Tt4m3v53sogcbellv2gslbmk2iu",
     "index": "312",
-    "title": "EKickapoo",
+    "title": "Kickapoo",
     "duration": "4:14",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -4332,7 +4332,7 @@
   {
     "dataid": "Tj47sin67k2vr3u5qamy4y7rocu",
     "index": "313",
-    "title": "EKids",
+    "title": "Kids",
     "duration": "4:57",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -4452,7 +4452,7 @@
   {
     "dataid": "T4hxhucwndsuqqvvdfnn5hdtyuq",
     "index": "325",
-    "title": "ELeather Jacket",
+    "title": "Leather Jacket",
     "duration": "3:56",
     "artist": "Arkells",
     "album": "High Noon",
@@ -4482,7 +4482,7 @@
   {
     "dataid": "Tn5pzm7olciqutrj47iq3ze7jru",
     "index": "328",
-    "title": "ELES",
+    "title": "LES",
     "duration": "5:17",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -4492,7 +4492,7 @@
   {
     "dataid": "Tevboyw5qi2xdxdotttpalitmxy",
     "index": "329",
-    "title": "EThe Less I Know The Better",
+    "title": "The Less I Know The Better",
     "duration": "3:36",
     "artist": "Tame Impala",
     "album": "Currents",
@@ -4542,7 +4542,7 @@
   {
     "dataid": "Tm4jzfwsnpcgajomcjm5c66kxge",
     "index": "334",
-    "title": "ELetter Home",
+    "title": "Letter Home",
     "duration": "1:44",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -4552,7 +4552,7 @@
   {
     "dataid": "T3z32xtshdjrn6tkfwqcx2kkbru",
     "index": "335",
-    "title": "EThe Library (Intro)",
+    "title": "The Library (Intro)",
     "duration": "0:04",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -4592,7 +4592,7 @@
   {
     "dataid": "Tn5pzm7olciqutrj47iq3ze7jru",
     "index": "328",
-    "title": "ELES",
+    "title": "LES",
     "duration": "5:17",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -4602,7 +4602,7 @@
   {
     "dataid": "Tevboyw5qi2xdxdotttpalitmxy",
     "index": "329",
-    "title": "EThe Less I Know The Better",
+    "title": "The Less I Know The Better",
     "duration": "3:36",
     "artist": "Tame Impala",
     "album": "Currents",
@@ -4652,7 +4652,7 @@
   {
     "dataid": "Tm4jzfwsnpcgajomcjm5c66kxge",
     "index": "334",
-    "title": "ELetter Home",
+    "title": "Letter Home",
     "duration": "1:44",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -4662,7 +4662,7 @@
   {
     "dataid": "T3z32xtshdjrn6tkfwqcx2kkbru",
     "index": "335",
-    "title": "EThe Library (Intro)",
+    "title": "The Library (Intro)",
     "duration": "0:04",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -4762,7 +4762,7 @@
   {
     "dataid": "Twzg2t5qjnumvgt6kso6ddckndu",
     "index": "345",
-    "title": "ELong Way Down",
+    "title": "Long Way Down",
     "duration": "3:54",
     "artist": "Robert Delong",
     "album": "Long Way Down",
@@ -4872,7 +4872,7 @@
   {
     "dataid": "T6yepvpmnfxqey2et3ocn6macrm",
     "index": "356",
-    "title": "ELow Hangin' Fruit (Explicit Version)",
+    "title": "Low Hangin' Fruit (Explicit Version)",
     "duration": "2:31",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -4942,7 +4942,7 @@
   {
     "dataid": "Tu2j7lf457knfrdxk455gwb4uka",
     "index": "363",
-    "title": "EMaster Exploder",
+    "title": "Master Exploder",
     "duration": "2:24",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -4982,7 +4982,7 @@
   {
     "dataid": "T6yepvpmnfxqey2et3ocn6macrm",
     "index": "356",
-    "title": "ELow Hangin' Fruit (Explicit Version)",
+    "title": "Low Hangin' Fruit (Explicit Version)",
     "duration": "2:31",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -5052,7 +5052,7 @@
   {
     "dataid": "Tu2j7lf457knfrdxk455gwb4uka",
     "index": "363",
-    "title": "EMaster Exploder",
+    "title": "Master Exploder",
     "duration": "2:24",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -5292,7 +5292,7 @@
   {
     "dataid": "Tegqdq2d5c3ndet73mmhacf66e4",
     "index": "387",
-    "title": "EThe Night Is Still Young",
+    "title": "The Night Is Still Young",
     "duration": "3:47",
     "artist": "Nicki Minaj",
     "album": "The Pinkprint (Deluxe)",
@@ -5352,7 +5352,7 @@
   {
     "dataid": "Tbwzvj32qt6r6wpuzjmy4mofjba",
     "index": "393",
-    "title": "EOh, The Boss is Coming!",
+    "title": "Oh, The Boss is Coming!",
     "duration": "3:40",
     "artist": "Arkells",
     "album": "Jackson Square",
@@ -5402,7 +5402,7 @@
   {
     "dataid": "Tegqdq2d5c3ndet73mmhacf66e4",
     "index": "387",
-    "title": "EThe Night Is Still Young",
+    "title": "The Night Is Still Young",
     "duration": "3:47",
     "artist": "Nicki Minaj",
     "album": "The Pinkprint (Deluxe)",
@@ -5462,7 +5462,7 @@
   {
     "dataid": "Tbwzvj32qt6r6wpuzjmy4mofjba",
     "index": "393",
-    "title": "EOh, The Boss is Coming!",
+    "title": "Oh, The Boss is Coming!",
     "duration": "3:40",
     "artist": "Arkells",
     "album": "Jackson Square",
@@ -5532,7 +5532,7 @@
   {
     "dataid": "Ti7wuo27yoxthl46biboxlysqci",
     "index": "400",
-    "title": "EOutside",
+    "title": "Outside",
     "duration": "4:30",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -5552,7 +5552,7 @@
   {
     "dataid": "Tbeerjauqc4oas7qcdx2aukgtki",
     "index": "402",
-    "title": "EPapagenu (He's My Sassafrass)",
+    "title": "Papagenu (He's My Sassafrass)",
     "duration": "2:24",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -5672,7 +5672,7 @@
   {
     "dataid": "Thprwvhsnhkoyrzjo72276dzsce",
     "index": "414",
-    "title": "EPlaying Around Before The Party Starts",
+    "title": "Playing Around Before The Party Starts",
     "duration": "0:54",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -5712,7 +5712,7 @@
   {
     "dataid": "Tzmkzrghnhloatawk3oq43hoczy",
     "index": "418",
-    "title": "EPOD",
+    "title": "POD",
     "duration": "2:32",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -5782,7 +5782,7 @@
   {
     "dataid": "Thprwvhsnhkoyrzjo72276dzsce",
     "index": "414",
-    "title": "EPlaying Around Before The Party Starts",
+    "title": "Playing Around Before The Party Starts",
     "duration": "0:54",
     "artist": "Childish Gambino",
     "album": "Because The Internet",
@@ -5822,7 +5822,7 @@
   {
     "dataid": "Tzmkzrghnhloatawk3oq43hoczy",
     "index": "418",
-    "title": "EPOD",
+    "title": "POD",
     "duration": "2:32",
     "artist": "Tenacious D",
     "album": "The Pick Of Destiny",
@@ -5882,7 +5882,7 @@
   {
     "dataid": "Tiqh2xxckipouy7x4uly66b35nm",
     "index": "424",
-    "title": "EPrice Tag (feat. B.o.B)",
+    "title": "Price Tag (feat. B.o.B)",
     "duration": "3:42",
     "artist": "Jessie J",
     "album": "Who You Are (Platinum Edition)",
@@ -5952,7 +5952,7 @@
   {
     "dataid": "Tnd57gnh3vnc65xdkunytcmojya",
     "index": "431",
-    "title": "ERage",
+    "title": "Rage",
     "duration": "3:38",
     "artist": "Hyper Crush",
     "album": "Rage",
@@ -5972,7 +5972,7 @@
   {
     "dataid": "Ttm3dj6xgqk4dbe3jxmbeojoqmy",
     "index": "433",
-    "title": "ERaise Your Glass",
+    "title": "Raise Your Glass",
     "duration": "3:23",
     "artist": "P!nk",
     "album": "Greatest Hits...So Far!!!",
@@ -6252,7 +6252,7 @@
   {
     "dataid": "T7sdjt4l5fhcryci4cxvp3ufxvq",
     "index": "450",
-    "title": "ERize Of The Fenix",
+    "title": "Rize Of The Fenix",
     "duration": "5:53",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -6262,7 +6262,7 @@
   {
     "dataid": "Tiu36y35s3quzniecv3ltbqowim",
     "index": "451",
-    "title": "ERoadie (Explicit Version)",
+    "title": "Roadie (Explicit Version)",
     "duration": "2:58",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -6392,7 +6392,7 @@
   {
     "dataid": "Tuwg3jxkwc7lnvvqq6f4q4zk6xu",
     "index": "464",
-    "title": "ESanteria",
+    "title": "Santeria",
     "duration": "3:03",
     "artist": "Sublime",
     "album": "Sublime",
@@ -6442,7 +6442,7 @@
   {
     "dataid": "Tclf2s7vfhlrwozdq6hao4noq7q",
     "index": "469",
-    "title": "ESeñorita (Explicit Version)",
+    "title": "Señorita (Explicit Version)",
     "duration": "3:08",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -6462,7 +6462,7 @@
   {
     "dataid": "Tdigqa2z636u7vzrvyrgvyqbhiy",
     "index": "471",
-    "title": "ESex on the Radio",
+    "title": "Sex on the Radio",
     "duration": "3:56",
     "artist": "Kongos",
     "album": "Lunatic",
@@ -6512,7 +6512,7 @@
   {
     "dataid": "Ttvk7aqag5qdkc4jhyqfzfjiqrm",
     "index": "476",
-    "title": "ESheep Go To Heaven",
+    "title": "Sheep Go To Heaven",
     "duration": "3:48",
     "artist": "Cake",
     "album": "Prolonging The Magic",
@@ -6552,7 +6552,7 @@
   {
     "dataid": "Tclf2s7vfhlrwozdq6hao4noq7q",
     "index": "469",
-    "title": "ESeñorita (Explicit Version)",
+    "title": "Señorita (Explicit Version)",
     "duration": "3:08",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -6572,7 +6572,7 @@
   {
     "dataid": "Tdigqa2z636u7vzrvyrgvyqbhiy",
     "index": "471",
-    "title": "ESex on the Radio",
+    "title": "Sex on the Radio",
     "duration": "3:56",
     "artist": "Kongos",
     "album": "Lunatic",
@@ -6622,7 +6622,7 @@
   {
     "dataid": "Ttvk7aqag5qdkc4jhyqfzfjiqrm",
     "index": "476",
-    "title": "ESheep Go To Heaven",
+    "title": "Sheep Go To Heaven",
     "duration": "3:48",
     "artist": "Cake",
     "album": "Prolonging The Magic",
@@ -6752,7 +6752,7 @@
   {
     "dataid": "Tvcqv4gxzegr44wxerspt7zsdce",
     "index": "489",
-    "title": "ESlam",
+    "title": "Slam",
     "duration": "3:38",
     "artist": "ONYX",
     "album": "Bacdafucup",
@@ -6912,7 +6912,7 @@
   {
     "dataid": "Tiqjltan2c3qplewwvcwcu3ig2y",
     "index": "505",
-    "title": "EStarships",
+    "title": "Starships",
     "duration": "3:30",
     "artist": "Nicki Minaj",
     "album": "Pink Friday... Roman Reloaded",
@@ -7022,7 +7022,7 @@
   {
     "dataid": "Tiqjltan2c3qplewwvcwcu3ig2y",
     "index": "505",
-    "title": "EStarships",
+    "title": "Starships",
     "duration": "3:30",
     "artist": "Nicki Minaj",
     "album": "Pink Friday... Roman Reloaded",
@@ -7172,7 +7172,7 @@
   {
     "dataid": "T3ojastobedk4k2rmtfncd642fm",
     "index": "520",
-    "title": "ESunrise",
+    "title": "Sunrise",
     "duration": "3:39",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -7422,7 +7422,7 @@
   {
     "dataid": "Tr63tpbjk6eojm7wz7wfotvvy64",
     "index": "534",
-    "title": "EThat Power",
+    "title": "That Power",
     "duration": "7:42",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -7442,7 +7442,7 @@
   {
     "dataid": "T4lhcerrmzsal324yx5crs2rpyu",
     "index": "536",
-    "title": "EThey Fucked Our Asses (Explicit Version)",
+    "title": "They Fucked Our Asses (Explicit Version)",
     "duration": "1:07",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -7482,7 +7482,7 @@
   {
     "dataid": "Ty776o6zayj7lczqpcf6rzc2yai",
     "index": "540",
-    "title": "EThrift Shop (feat. Wanz)",
+    "title": "Thrift Shop (feat. Wanz)",
     "duration": "3:55",
     "artist": "Macklemore & Ryan Lewis",
     "album": "The Heist",
@@ -7502,7 +7502,7 @@
   {
     "dataid": "T3jhjb5worjdfmcncdymwflxrvi",
     "index": "542",
-    "title": "EThrow Down (Explicit Version)",
+    "title": "Throw Down (Explicit Version)",
     "duration": "2:56",
     "artist": "Tenacious D",
     "album": "Rize Of The Fenix",
@@ -7852,7 +7852,7 @@
   {
     "dataid": "Tfw3sx3guw7dubxx4j2bey6ibje",
     "index": "566",
-    "title": "ETrying To Find A Balance",
+    "title": "Trying To Find A Balance",
     "duration": "4:17",
     "artist": "Atmosphere",
     "album": "Seven's Travels",
@@ -8032,7 +8032,7 @@
   {
     "dataid": "Tl3lpndfmjcvcmnys7lgsilbqya",
     "index": "584",
-    "title": "EWalk On By",
+    "title": "Walk On By",
     "duration": "3:46",
     "artist": "Cake",
     "album": "Prolonging The Magic",
@@ -8052,7 +8052,7 @@
   {
     "dataid": "Trmqhfrqspc3fb76jbdubgef4by",
     "index": "586",
-    "title": "EThe W.A.N.D.",
+    "title": "The W.A.N.D.",
     "duration": "3:42",
     "artist": "The Flaming Lips",
     "album": "At War With The Mystics (U.S. Version)",
@@ -8142,7 +8142,7 @@
   {
     "dataid": "Tl3lpndfmjcvcmnys7lgsilbqya",
     "index": "584",
-    "title": "EWalk On By",
+    "title": "Walk On By",
     "duration": "3:46",
     "artist": "Cake",
     "album": "Prolonging The Magic",
@@ -8162,7 +8162,7 @@
   {
     "dataid": "Trmqhfrqspc3fb76jbdubgef4by",
     "index": "586",
-    "title": "EThe W.A.N.D.",
+    "title": "The W.A.N.D.",
     "duration": "3:42",
     "artist": "The Flaming Lips",
     "album": "At War With The Mystics (U.S. Version)",
@@ -8382,7 +8382,7 @@
   {
     "dataid": "Teb5erdxi55x5p7p7pqrpw2ksky",
     "index": "608",
-    "title": "EWhite Walls (feat. ScHoolboy Q, Hollis)",
+    "title": "White Walls (feat. ScHoolboy Q, Hollis)",
     "duration": "3:40",
     "artist": "Macklemore & Ryan Lewis",
     "album": "The Heist",
@@ -8452,7 +8452,7 @@
   {
     "dataid": "Tlmexz3ejiubatpoxtes6ed2xra",
     "index": "615",
-    "title": "EWishing Well",
+    "title": "Wishing Well",
     "duration": "3:57",
     "artist": "The Airborne Toxic Event",
     "album": "The Airborne Toxic Event (Deluxe Edition)",
@@ -8492,7 +8492,7 @@
   {
     "dataid": "Teb5erdxi55x5p7p7pqrpw2ksky",
     "index": "608",
-    "title": "EWhite Walls (feat. ScHoolboy Q, Hollis)",
+    "title": "White Walls (feat. ScHoolboy Q, Hollis)",
     "duration": "3:40",
     "artist": "Macklemore & Ryan Lewis",
     "album": "The Heist",
@@ -8562,7 +8562,7 @@
   {
     "dataid": "Tlmexz3ejiubatpoxtes6ed2xra",
     "index": "615",
-    "title": "EWishing Well",
+    "title": "Wishing Well",
     "duration": "3:57",
     "artist": "The Airborne Toxic Event",
     "album": "The Airborne Toxic Event (Deluxe Edition)",
@@ -8692,7 +8692,7 @@
   {
     "dataid": "Th6dd54kiaubpu2nwhjm7emj7je",
     "index": "628",
-    "title": "EWrong Side Of Heaven",
+    "title": "Wrong Side Of Heaven",
     "duration": "4:30",
     "artist": "Five Finger Death Punch",
     "album": "The Wrong Side Of Heaven And The Righteous Side Of Hell (Volume 1)",
@@ -8742,7 +8742,7 @@
   {
     "dataid": "T2tvvvk36li7iof6k5qncrf4eba",
     "index": "633",
-    "title": "EYou See Me",
+    "title": "You See Me",
     "duration": "3:15",
     "artist": "Childish Gambino",
     "album": "Camp",
@@ -8772,7 +8772,7 @@
   {
     "dataid": "Ttvdqacnhleefer7whzbsimemay",
     "index": "636",
-    "title": "EGangsta",
+    "title": "Gangsta",
     "duration": "3:51",
     "artist": "ScHoolboy Q",
     "album": "Oxymoron (Deluxe)",
@@ -8882,7 +8882,7 @@
   {
     "dataid": "Ttvdqacnhleefer7whzbsimemay",
     "index": "636",
-    "title": "EGangsta",
+    "title": "Gangsta",
     "duration": "3:51",
     "artist": "ScHoolboy Q",
     "album": "Oxymoron (Deluxe)",
@@ -9172,7 +9172,7 @@
   {
     "dataid": "T7xjqg36pcionxoa3bkiz4273rm",
     "index": "665",
-    "title": "EL$D",
+    "title": "L$D",
     "duration": "3:58",
     "artist": "A$AP Rocky",
     "album": "AT.LONG.LAST.A$AP",
@@ -9282,7 +9282,7 @@
   {
     "dataid": "T7xjqg36pcionxoa3bkiz4273rm",
     "index": "665",
-    "title": "EL$D",
+    "title": "L$D",
     "duration": "3:58",
     "artist": "A$AP Rocky",
     "album": "AT.LONG.LAST.A$AP",
@@ -9382,7 +9382,7 @@
   {
     "dataid": "4e754abb-ebec-30d5-becf-5aa80fe91ce6",
     "index": "675",
-    "title": "EAgain",
+    "title": "Again",
     "duration": "5:12",
     "artist": "Fetty Wap",
     "album": "Fetty Wap",
@@ -9392,7 +9392,7 @@
   {
     "dataid": "276e2e39-47da-35b9-9a58-3673617716cc",
     "index": "676",
-    "title": "ESaved (feat. E-40)",
+    "title": "Saved (feat. E-40)",
     "duration": "2:58",
     "artist": "Ty Dolla $ign",
     "album": "Saved (feat. E-40)",
@@ -9472,7 +9472,7 @@
   {
     "dataid": "Tkpa3elr56slbswubtxlnoyjirm",
     "index": "684",
-    "title": "EDreams",
+    "title": "Dreams",
     "duration": "5:14",
     "artist": "Beck",
     "album": "Dreams",
@@ -9482,7 +9482,7 @@
   {
     "dataid": "Tqywzaqwyh3kh47ljgaojrcm23a",
     "index": "685",
-    "title": "EF**kin' Problems (feat. Drake, 2 Chainz & Kendrick Lamar)",
+    "title": "F**kin' Problems (feat. Drake, 2 Chainz & Kendrick Lamar)",
     "duration": "3:53",
     "artist": "A$AP Rocky",
     "album": "LONG.LIVE.A$AP (Deluxe Version)",
@@ -9492,7 +9492,7 @@
   {
     "dataid": "00ecd7e8-c5b0-355f-90a6-736506fe6e48",
     "index": "686",
-    "title": "EWild for the Night (feat. Skrillex & Birdy Nam Nam)",
+    "title": "Wild for the Night (feat. Skrillex & Birdy Nam Nam)",
     "duration": "3:32",
     "artist": "A$AP Rocky",
     "album": "LONG.LIVE.A$AP (Deluxe Version)",
@@ -9502,7 +9502,7 @@
   {
     "dataid": "116149f0-33e1-3703-8fcd-047c6dabe2fe",
     "index": "687",
-    "title": "EEveryday (feat. Rod Stewart, Miguel & Mark Ronson)",
+    "title": "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
     "duration": "4:20",
     "artist": "A$AP Rocky",
     "album": "AT.LONG.LAST.A$AP",

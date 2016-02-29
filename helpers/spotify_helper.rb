@@ -110,6 +110,21 @@ class SpotifyHelper
 
         return PerformRestrictedGet(uri)
     end
+
+    def PostUserTracks(ids)
+        url = API_URL + 'me/tracks?ids=' + ids
+        uri = URI(url)
+
+        req = Net::HTTP::Post.new(uri);
+        req['Authorization'] = "Bearer #{@access_token}"
+
+        res = Net::HTTP.start(uri.hostname, uri.port,
+            :use_ssl => uri.scheme == 'https') do |http|
+            http.request(req)
+        end
+
+        return res;
+    end
     
     def RefreshTokenIfNeeded()
         if Time.now > (@token_time + @expires_in)

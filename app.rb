@@ -86,4 +86,12 @@ class SpotifyImporter < Sinatra::Base
         return {"count" => count, "spId" => id}.to_json
     end
 
+    post '/transferTrack' do
+        if authenticated?
+            res = session["helper"].PostUserTracks("7tXYDOA4SLsGQhecwGqWM6")
+            puts res
+            return res
+        end
+    end
+
 end

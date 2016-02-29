@@ -26,12 +26,31 @@ function Track(data) {
       var self = this;
       data = data || {};
 
+      self.dummy = ko.observable();
+
       self.title = data.title;
       self.artist = data.artist;
       self.album = data.album;
-      self.results = ko.observable("");
+      self.results = ko.observable();
       self.spotify_id = ko.observable("");
-      self.g_id = data.dataid;
+
+      self.className = ko.computed(function() {
+            if (self.results() >= 10)
+                return "alert alert-warning";
+            else if (self.results() > 0)
+                return "alert alert-success";
+            else if (self.results() === 0)
+                return "alert alert-danger";
+            else
+                return "alert";
+      });
+
+      self.glyphicon = ko.computed(function() {
+            if (self.results() >= 10)
+                return "glyphicon glyphicon-warning-sign";
+            else if (self.results() === 0)
+                return "glyphicon glyphicon glyphicon-remove";
+      });
 }
 
 function TracksViewModel() {
@@ -40,6 +59,7 @@ function TracksViewModel() {
       self.tracks = ko.observableArray();
       self.trackCount = ko.observable(0);
       self.trackIndex = ko.observable(0);
+      self.readyToTransfer = ko.observable(false);
 
       self.populateData = function() {
         $.get("/importTracks", function (data) {
@@ -56,7 +76,10 @@ function TracksViewModel() {
       self.querySpotifyData = function(index) {
         var item = self.tracks()[index];
         if (typeof item === "undefined")
-            return;
+        {
+          self.readyToTransfer(true);
+          return;
+        }
         $.get("/spotifyData", item)
             .done(function(data) {
                 data = JSON.parse(data);
@@ -65,6 +88,11 @@ function TracksViewModel() {
                 self.trackIndex(index+1);
                 vm.querySpotifyData(index+1);
             });
+      };
+
+      self.transferTrackToSpotify = function(index) {
+
+        $.post("/transferTrack", {}, function(data) { console_log(data); })
       }
 }
 
@@ -74,3 +102,4 @@ $(function() {
 });
 
 vm.populateData();
+vm.transferTrackToSpotify();

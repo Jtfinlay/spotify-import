@@ -23,16 +23,18 @@
 
         <p>Welcome, <%= session[:user_name] %>!</p>
         <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have <span data-bind='text: trackCount'></span> item(s) to import.</p>
-        <h4>Processed <span data-bind='text: trackIndex'></span>/<span data-bind='text: trackCount'></span> items.</h4>
+        <h4>Checking files... <span data-bind='text: trackIndex'></span>/<span data-bind='text: trackCount'></span> items.</h4>
+        <button data-bind="visible: readyToTransfer" type="button" class="btn btn-primary">Transfer items</button>
 
         <hr />
 
         <table class='table'>
             <thead><tr>
-                <th>TrackName</th><th>Artist</th><th>Album</th><th>Results Found</th><th>SpotifyId</th>
+                <th/><th>TrackName</th><th>Artist</th><th>Album</th><th>Results Found</th><th>SpotifyId</th>
             </tr></thead>
             <tbody data-bind="foreach: tracks">
-                <tr>
+                <tr data-bind="css: className">
+                    <td><span data-bind="css: glyphicon"></span></td>
                     <td data-bind="text: title"></td>
                     <td data-bind="text: artist"></td>
                     <td data-bind="text: album"></td>
