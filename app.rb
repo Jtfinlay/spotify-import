@@ -88,9 +88,9 @@ class SpotifyImporter < Sinatra::Base
 
     post '/transferTrack' do
         if authenticated?
-            res = session["helper"].PostUserTracks("7tXYDOA4SLsGQhecwGqWM6")
-            puts res
-            return res
+            res = session["helper"].PostUserTracks(request["sid"])
+            puts res.code + "    " + request["sid"]
+            return res.code
         end
     end
 

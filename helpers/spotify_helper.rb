@@ -115,7 +115,7 @@ class SpotifyHelper
         url = API_URL + 'me/tracks?ids=' + ids
         uri = URI(url)
 
-        req = Net::HTTP::Post.new(uri);
+        req = Net::HTTP::Put.new(uri);
         req['Authorization'] = "Bearer #{@access_token}"
 
         res = Net::HTTP.start(uri.hostname, uri.port,

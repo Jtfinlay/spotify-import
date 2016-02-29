@@ -33,6 +33,7 @@ function Track(data) {
       self.album = data.album;
       self.results = ko.observable();
       self.spotify_id = ko.observable("");
+      self.transferred = ko.observable(false);
 
       self.className = ko.computed(function() {
             if (self.results() >= 10)
@@ -46,7 +47,9 @@ function Track(data) {
       });
 
       self.glyphicon = ko.computed(function() {
-            if (self.results() >= 10)
+            if (self.transferred())
+                return "glyphicon glyphicon-ok";
+            else if (self.results() >= 10)
                 return "glyphicon glyphicon-warning-sign";
             else if (self.results() === 0)
                 return "glyphicon glyphicon glyphicon-remove";
@@ -60,6 +63,7 @@ function TracksViewModel() {
       self.trackCount = ko.observable(0);
       self.trackIndex = ko.observable(0);
       self.readyToTransfer = ko.observable(false);
+      self.transferDisabled = ko.observable(false);
 
       self.populateData = function() {
         $.get("/importTracks", function (data) {
@@ -90,9 +94,27 @@ function TracksViewModel() {
             });
       };
 
-      self.transferTrackToSpotify = function(index) {
+      self.transferTracks = function() {
+        self.transferDisabled(true);
+        vm.transferTrack(0);
+      }
 
-        $.post("/transferTrack", {}, function(data) { console_log(data); })
+      self.transferTrack = function(index) {
+        var item = self.tracks()[index];
+        if (typeof item === "undefined")
+            return;
+        if (item.results == 0)
+        {
+            vm.transferTrack(index+1);
+            return;
+        }
+        $.post("/transferTrack", { "sid": item.spotify_id }, function(data) { 
+            if (data == 200)
+            {
+                self.tracks()[index].transferred(true);
+            }
+            vm.transferTrack(index+1);
+        });
       }
 }
 
@@ -102,4 +124,3 @@ $(function() {
 });
 
 vm.populateData();
-vm.transferTrackToSpotify();
