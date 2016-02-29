@@ -45,13 +45,23 @@ function TracksViewModel() {
             self.tracks([]);
 
             $.each(JSON.parse(data), function(i, track) {
-                console.log(track);
-                self.tracks.push(new Track(track));
+                self.tracks.push(new ko.observable(Track(track)));
             });
             self.trackCount(self.tracks().length)
+            vm.querySpotifyData(0);
         });
-
       };
+
+      self.querySpotifyData = function(index) {
+        var item = self.tracks()[index];
+        if (typeof item === "undefined")
+            return;
+        $.get("/spotifyData", item)
+            .done(function(data) {
+                alert(JSON.parse(data)["count"];)
+                self.tracks()[index].results = JSON.parse(data)["count"];
+            });
+      }
 }
 
 var vm = new TracksViewModel();
