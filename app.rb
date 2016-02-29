@@ -23,19 +23,21 @@
 require 'sinatra'
 require_relative 'helpers/api_keys'
 require_relative 'helpers/fileimport_helper'
+require_relative 'helpers/js'
 require_relative 'helpers/spotify_helper'
 
 class SpotifyImporter < Sinatra::Base
+    helpers Sinatra::JavaScripts
 
     enable :sessions
 
     helpers do
         def authenticated?
-            not session[:access_token].nil?
+            not session[:helper].nil?
         end
 
         def spotifyTrackCount
-            SpotifyHelper.GetUserLibrary(session[:access_token])["total"]
+            session[:helper].GetUserLibrary["total"]
         end
 
         def stromaeTest
@@ -59,14 +61,17 @@ class SpotifyImporter < Sinatra::Base
 
     get '/' do
         erb :home
+        if authenticated?
+            # Thread.new {  }
+        end
     end
 
     get '/callback' do
         begin
-            helper = SpotifyHelper.new
-            helper.HandleTokenAuthorization(request)
+            session["helper"] = SpotifyHelper.new
+            session[:helper].HandleTokenAuthorization(request)
 
-            user_data = helper.GetProfileData
+            user_data = session[:helper].GetProfileData
             session['user_name'] = user_data["id"]
 
             redirect to('/')
