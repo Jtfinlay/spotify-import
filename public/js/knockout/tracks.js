@@ -29,8 +29,8 @@ function Track(data) {
       self.title = data.title;
       self.artist = data.artist;
       self.album = data.album;
-      self.results = "";
-      self.spotify_id = "";
+      self.results = ko.observable("");
+      self.spotify_id = ko.observable("");
       self.g_id = data.dataid;
 }
 
@@ -39,13 +39,14 @@ function TracksViewModel() {
 
       self.tracks = ko.observableArray();
       self.trackCount = ko.observable(0);
+      self.trackIndex = ko.observable(0);
 
       self.populateData = function() {
         $.get("/importTracks", function (data) {
             self.tracks([]);
 
             $.each(JSON.parse(data), function(i, track) {
-                self.tracks.push(new ko.observable(Track(track)));
+                self.tracks.push(new Track(track));
             });
             self.trackCount(self.tracks().length)
             vm.querySpotifyData(0);
@@ -58,8 +59,11 @@ function TracksViewModel() {
             return;
         $.get("/spotifyData", item)
             .done(function(data) {
-                alert(JSON.parse(data)["count"];)
-                self.tracks()[index].results = JSON.parse(data)["count"];
+                data = JSON.parse(data);
+                self.tracks()[index].results(data["count"]);
+                self.tracks()[index].spotify_id(data["spId"]);
+                self.trackIndex(index+1);
+                vm.querySpotifyData(index+1);
             });
       }
 }

@@ -81,7 +81,6 @@ class SpotifyImporter < Sinatra::Base
 
     get '/spotifyData' do
         res = SpotifyHelper.SearchTrack(request['title'], request['artist'], request['album'])
-        puts res
         count = res['tracks']['total'].to_i
         id = res['tracks']['items'][0]['id'] if count > 0
         return {"count" => count, "spId" => id}.to_json

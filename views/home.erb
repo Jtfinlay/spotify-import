@@ -23,6 +23,7 @@
 
         <p>Welcome, <%= session[:user_name] %>!</p>
         <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have <span data-bind='text: trackCount'></span> item(s) to import.</p>
+        <h4>Processed <span data-bind='text: trackIndex'></span>/<span data-bind='text: trackCount'></span> items.</h4>
 
         <hr />
 
