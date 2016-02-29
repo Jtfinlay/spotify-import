@@ -20,7 +20,10 @@
 <h1>Spotify Importer</h1>
 
 <% if authenticated? %>
+
     <p>Welcome, <%= session[:user_name] %>!</p>
+    <p>We have found <%= spotifyTrackCount %> items already in your Spotify library, and see you have x items to import.</p>
+
 <% else %>
     <a href='/authenticate'>Login with Spotify</a>
 <% end %>

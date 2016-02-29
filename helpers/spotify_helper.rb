@@ -73,11 +73,9 @@ class SpotifyHelper
     end
 
     #
-    # Perform GET query to access user profile information
+    # Perform GET query for the specific uri that requires access_token
     #
-    def self.GetProfileData(access_token)
-        uri = URI(API_URL + 'me')
-
+    def self.PerformRestrictedGet(access_token, uri)
         req = Net::HTTP::Get.new(uri)
         req['Authorization'] = "Bearer #{access_token}"
 
@@ -87,6 +85,24 @@ class SpotifyHelper
         end
 
         return JSON.parse(res.body)
+    end
+
+    #
+    # Perform GET query to access user profile information
+    #
+    def self.GetProfileData(access_token)
+        uri = URI(API_URL + 'me')
+
+        return SpotifyHelper.PerformRestrictedGet(access_token, uri)
+    end
+
+    #
+    # Perform GET query to access user library
+    #
+    def self.GetUserLibrary(access_token)
+        uri = URI(API_URL + 'me/tracks')
+
+        return SpotifyHelper.PerformRestrictedGet(access_token, uri)
     end
 
     #

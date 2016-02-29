@@ -33,6 +33,10 @@ class SpotifyImporter < Sinatra::Base
             not session[:access_token].nil?
         end
 
+        def spotifyTrackCount
+            SpotifyHelper.GetUserLibrary(session[:access_token])["total"]
+        end
+
     end
 
     get '/' do
@@ -57,11 +61,9 @@ class SpotifyImporter < Sinatra::Base
     end
 
     get '/authenticate' do
-        login
-    end
-
-    def login
         redirect to(SpotifyHelper.SpotifyOAuthUrl)
     end
+
+
 
 end
