@@ -30,7 +30,7 @@ class SpotifyImporter < Sinatra::Base
 
     helpers do
         def authenticated?
-            not session['access_token'].nil?
+            not session[:access_token].nil?
         end
 
     end
@@ -47,9 +47,9 @@ class SpotifyImporter < Sinatra::Base
             session['refresh_token'] = res["refresh_token"]
 
             user_data = SpotifyHelper.GetProfileData(session[:access_token])
-            user_name = user_data["id"]
+            session['user_name'] = user_data["id"]
 
-            return "Welcome, #{user_name}!"
+            redirect to('/')
 
         rescue Exception => detail
             return "Error: #{detail}"

@@ -17,6 +17,13 @@
       SOFTWARE.
     -->
 
-<p>Title</p>
+<h1>Spotify Importer</h1>
+
+<% if authenticated? %>
+    <p>Welcome, <%= session[:user_name] %>!</p>
+<% else %>
     <a href='/authenticate'>Login with Spotify</a>
-<p>Foot</p>
+<% end %>
+
+<br />
+<p>Copyright (c) 2016 James Finlay</p>

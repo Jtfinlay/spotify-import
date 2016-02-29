@@ -72,6 +72,9 @@ class SpotifyHelper
         return JSON.parse(res.body)
     end
 
+    #
+    # Perform GET query to access user profile information
+    #
     def self.GetProfileData(access_token)
         uri = URI(API_URL + 'me')
 
