@@ -52,7 +52,7 @@ class SpotifyHelper
     #
     # request: Spotify Authentication response containing an authorization code or error
     #
-    def self.HandleTokenAuthorization(request)
+    def HandleTokenAuthorization(request)
         if not request['error'].nil?
             raise AuthenticationException, request['error']
         end
@@ -68,16 +68,22 @@ class SpotifyHelper
         if not res.code.to_i == 200
             raise TokenAuthorizationException, res.message
         end
-
-        return JSON.parse(res.body)
+        
+        json = JSON.parse(res.body)
+        
+        @token_time = Time.now
+        @expires_in = json['expires_in']
+        @access_token = json['access_token']
+        @refresh_token = json['refresh_token']
     end
 
     #
     # Perform GET query for the specific uri that requires access_token
     #
-    def self.PerformRestrictedGet(access_token, uri)
+    def PerformRestrictedGet(uri)
+        RefreshTokenIfNeeded()
         req = Net::HTTP::Get.new(uri)
-        req['Authorization'] = "Bearer #{access_token}"
+        req['Authorization'] = "Bearer #{@access_token}"
 
         res = Net::HTTP.start(uri.hostname, uri.port,
             :use_ssl => uri.scheme == 'https') do |http|
@@ -90,19 +96,31 @@ class SpotifyHelper
     #
     # Perform GET query to access user profile information
     #
-    def self.GetProfileData(access_token)
+    def GetProfileData()
         uri = URI(API_URL + 'me')
 
-        return SpotifyHelper.PerformRestrictedGet(access_token, uri)
+        return PerformRestrictedGet(uri)
     end
 
     #
     # Perform GET query to access user library
     #
-    def self.GetUserLibrary(access_token)
+    def GetUserLibrary()
         uri = URI(API_URL + 'me/tracks')
 
-        return SpotifyHelper.PerformRestrictedGet(access_token, uri)
+        return PerformRestrictedGet(uri)
+    end
+    
+    def RefreshTokenIfNeeded()
+        if Time.now > (@token_time + @expires_in)
+            res = Net::HTTP.post_form(URI(TOKEN_URL),
+                'grant_type' => 'refresh_token',
+                'refresh_token' => refresh_token,
+                'client_id' => CLIENT_ID,
+                'client_secret' => CLIENT_SECRET)
+            
+            @access_token = JSON.parse(res.body)['access_token']
+        end
     end
 
     #
