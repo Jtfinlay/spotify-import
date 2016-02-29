@@ -22,7 +22,12 @@
 <% if authenticated? %>
 
     <p>Welcome, <%= session[:user_name] %>!</p>
-    <p>We have found <%= spotifyTrackCount %> items already in your Spotify library, and see you have x items to import.</p>
+    <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have x item(s) to import.</p>
+
+    <br />
+
+    <p>Results for Formidable / Stromae / Racine Carree:</p>
+    <p>~ <%= stromaeTest %> ~</p>
 
 <% else %>
     <a href='/authenticate'>Login with Spotify</a>

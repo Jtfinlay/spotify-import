@@ -37,6 +37,11 @@ class SpotifyImporter < Sinatra::Base
             SpotifyHelper.GetUserLibrary(session[:access_token])["total"]
         end
 
+        def stromaeTest
+            res = SpotifyHelper.SearchTrack('formidable', 'stromae', 'Racine Carrée')
+            return res['tracks']['items'][0]['id']
+        end
+
     end
 
     get '/' do
