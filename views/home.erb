@@ -16,22 +16,38 @@
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.
     -->
+<div class='container'>
+    <h1>Spotify Importer</h1>
 
-<h1>Spotify Importer</h1>
+    <% if authenticated? %>
 
-<% if authenticated? %>
+        <p>Welcome, <%= session[:user_name] %>!</p>
+        <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have x item(s) to import.</p>
 
-    <p>Welcome, <%= session[:user_name] %>!</p>
-    <p>We have found <%= spotifyTrackCount %> item(s) already in your Spotify library, and see you have x item(s) to import.</p>
+        <hr />
 
-    <br />
+        <table>
+            <thead><tr>
+                <th>TrackName</th><th>Artist</th><th>Album</th><th>SpotifyId</th>
+            </tr></thead>
+            <tbody>
+                <% importTracks.each do |track| %>
+                <tr>
+                    <td><%= track['name'] %></td>
+                    <td><%= track['name'] %></td>
+                    <td><%= track['name'] %></td>
+                    <td><%= track['name'] %></td>
+                </tr>
+                <% end %>
+            </tbody>
+        </table>
 
-    <p>Results for Formidable / Stromae / Racine Carree:</p>
-    <p>~ <%= stromaeTest %> ~</p>
+    <% else %>
+        <a href='/authenticate'>Login with Spotify</a>
+    <% end %>
 
-<% else %>
-    <a href='/authenticate'>Login with Spotify</a>
-<% end %>
 
-<br />
-<p>Copyright (c) 2016 James Finlay</p>
+    <hr />
+    <p>Copyright (c) 2016 James Finlay</p>
+
+</div>

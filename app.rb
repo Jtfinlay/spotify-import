@@ -42,6 +42,9 @@ class SpotifyImporter < Sinatra::Base
             return res['tracks']['items'][0]['id']
         end
 
+        def importTracks
+            return [{ "name" => "w/e"}]
+        end
     end
 
     get '/' do
